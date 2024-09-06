@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_5"
+    tools:context=".WelcomeScreen">
+
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="80dp"
+        android:background="#3F6583"
+        android:text="Happy to see you in\n   Daily Motivation "
+        android:textColor="#F6F9FF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appNAme"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/appName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginBottom="24dp"
+        android:text="   Goal setting is the secret to a compelling future---"
+        android:textColor="#092D73"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
